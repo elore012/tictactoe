@@ -1,0 +1,91 @@
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 310px;
+    border: rgb(202, 100, 100);
+    margin: auto;
+    justify-content: center;
+   
+}
+
+#tic {
+    color: red;
+    text-shadow: 0px 0px 5px black;
+}
+
+#tac{
+    color: green;
+    text-shadow: 0px 0px 5px black;
+}
+#toe{
+    color: blue;
+    text-shadow: 0px 0px 5px black;
+}
+
+.boxes{
+    height: 100px;
+    width: 100px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: black
+}
+
+#box1, #box2, #box3{
+    border-top: 1px solid black;
+}
+
+#box1, #box4,#box7{
+    border-left: 1px solid black;
+}
+
+#master{
+    height: 100px;
+    width: 100px;
+  
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+#title{
+    text-align: center;
+}
+#winDisplay{
+    text-align: center;
+    font-size: 50px;
+}
+#test{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#divReset{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 100px;
+}
+body{
+    background-color: white;
+}
+.boxes{
+    cursor: pointer;
+}
+#reset{
+    width: 300px;
+    height: 3em;
+    color: white;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+
